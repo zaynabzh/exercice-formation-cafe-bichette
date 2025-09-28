@@ -1,0 +1,145 @@
+/* Reset regles css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3{
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+ 
+    color: white;
+}
+
+section.header{
+    background-color: #222;
+    overflow: auto;
+    line-height: 1.7em;
+}
+
+.header nav h1{
+    float: left;
+    padding: 20px;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+
+.header nav ul{
+    float: right;
+    list-style: none;
+}
+.header nav ul li{
+    float: left;
+    
+}
+.header nav ul li a{
+    padding: 20px;
+    display: block;
+    margin-bottom: 0;
+}
+.header nav ul li a:hover{
+    background: #333;
+}
+.active{
+    background: #333;
+}
+
+/* Section 2 / Slider image */
+.pv{
+    height: 600px;
+    background: url("/exercice-cafe-bichette/links/cafe1.jpg") center center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.pv-content{
+    max-width: 800px;
+    margin: auto;
+    padding: 100px;
+}
+.pv-content h1{
+        font-size: 35px;
+}
+.separator{
+    width: 200px;
+    height: 10px;
+    background-color: #222;
+    margin: 20px auto;
+}
+.pv p{
+    margin: 20px auto;
+}
+
+.btn{
+    display: inline-block;
+    margin:10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.btn-dark{
+    background: #222;
+    color: white;
+}
+.btn-white{
+    background: #222;
+    color: white;
+}
+.btn-white:hover{
+    border: solid 1px #222;
+    color: #222;
+    background-color: white;
+}
+.btn-dark:hover{
+    background: white;
+    color: #222;
+}
+
+/* Section features */
+.features{
+    text-align: center;
+    margin: 100px 0px;
+    overflow: auto;
+}
+.fa-solid{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.content{
+    max-width: 1000px;
+    margin: auto;
+    display: block;
+}
+
+.feature{
+    max-width: 50%;
+    float: left;
+}
+/* Section person */
+
+section.person{
+    height: 500px;
+    background: url("/exercice-cafe-bichette/links/cafe3.jpg") center center/cover;
+}
+/* Section réservation */
+.reservation{
+    padding: 100px 0px;
+    text-align: center;
+}
+
+/* Section Footer */
+.footer{
+    background: #222;
+    text-align: center;
+    padding: 30px 0px;
+}
+.footer p{
+    color: white;
+}
